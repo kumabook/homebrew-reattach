@@ -1,6 +1,7 @@
 class Reattachd < Formula
   desc "Remote control daemon for tmux sessions"
   homepage "https://github.com/kumabook/Reattach"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
