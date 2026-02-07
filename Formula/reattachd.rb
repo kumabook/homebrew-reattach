@@ -5,21 +5,21 @@ class Reattachd < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kumabook/Reattach/releases/download/v1.0.0/reattachd-darwin-aarch64.tar.gz"
-      sha256 "6c346998cbbf8222f5104248a12b56e51a52c06cf2a3350b24f64e6a103e3acf"
+      url "https://github.com/kumabook/Reattach/releases/download/v1.0.1/reattachd-darwin-aarch64.tar.gz"
+      sha256 "b989297494231b7452f1647bff05e9cf8dc51a11bbe87165407b336a92f04035"
     else
-      url "https://github.com/kumabook/Reattach/releases/download/v1.0.0/reattachd-darwin-x86_64.tar.gz"
-      sha256 "626b75656a6a2b9370bcac0519c8e882cb935c445f62716e1b99310847870fdd"
+      url "https://github.com/kumabook/Reattach/releases/download/v1.0.1/reattachd-darwin-x86_64.tar.gz"
+      sha256 "e1692f57794a738aa722d64ff0841bb43ad1f9d93482e36ee359df144280e807"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kumabook/Reattach/releases/download/v1.0.0/reattachd-linux-aarch64-gnu.tar.gz"
-      sha256 "7bb23d8f75942f92ae74ee91166b45dadb24fb0351580bc05f0720a47b5fc553"
+      url "https://github.com/kumabook/Reattach/releases/download/v1.0.1/reattachd-linux-aarch64-gnu.tar.gz"
+      sha256 "3d0fe581e4204119088caf36666fb7d272180f718e9a517fcc2c11cad8e7f5ef"
     else
-      url "https://github.com/kumabook/Reattach/releases/download/v1.0.0/reattachd-linux-x86_64-musl.tar.gz"
-      sha256 "0306406a2ced615dee0dade39a80e4a9a739d32c78f6be6a684a14fd07e328e1"
+      url "https://github.com/kumabook/Reattach/releases/download/v1.0.1/reattachd-linux-x86_64-musl.tar.gz"
+      sha256 "9e61260cac81f2bdfc90d30948bd4e9dbe1b50f2b209921eaf26cdffd61c2f01"
     end
   end
 
