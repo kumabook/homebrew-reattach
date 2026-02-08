@@ -1,26 +1,26 @@
 class Reattachd < Formula
   desc "Remote control daemon for tmux sessions"
   homepage "https://github.com/kumabook/Reattach"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kumabook/Reattach/releases/download/v1.0.1/reattachd-darwin-aarch64.tar.gz"
-      sha256 "b989297494231b7452f1647bff05e9cf8dc51a11bbe87165407b336a92f04035"
+      url "https://github.com/kumabook/Reattach/releases/download/v1.0.2/reattachd-darwin-aarch64.tar.gz"
+      sha256 "928db119cd04d358250ee44ec7fcf256921e5b74b4e3367b2e7a68c4b8473c8a"
     else
-      url "https://github.com/kumabook/Reattach/releases/download/v1.0.1/reattachd-darwin-x86_64.tar.gz"
-      sha256 "e1692f57794a738aa722d64ff0841bb43ad1f9d93482e36ee359df144280e807"
+      url "https://github.com/kumabook/Reattach/releases/download/v1.0.2/reattachd-darwin-x86_64.tar.gz"
+      sha256 "f3e06b308c9541552cba6c530316dcd1b7687d5b29ba68c4ccd1db32e2942bf7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kumabook/Reattach/releases/download/v1.0.1/reattachd-linux-aarch64-gnu.tar.gz"
-      sha256 "3d0fe581e4204119088caf36666fb7d272180f718e9a517fcc2c11cad8e7f5ef"
+      url "https://github.com/kumabook/Reattach/releases/download/v1.0.2/reattachd-linux-aarch64-gnu.tar.gz"
+      sha256 "f6d4df1dcd4202bf0644fbc09b4fbacd0045a87b7c71fa429f8a2f4744f52e42"
     else
-      url "https://github.com/kumabook/Reattach/releases/download/v1.0.1/reattachd-linux-x86_64-musl.tar.gz"
-      sha256 "9e61260cac81f2bdfc90d30948bd4e9dbe1b50f2b209921eaf26cdffd61c2f01"
+      url "https://github.com/kumabook/Reattach/releases/download/v1.0.2/reattachd-linux-x86_64-musl.tar.gz"
+      sha256 "eadef5dbc61e0f4f91ff4086ccf83acd875d619b4fc230246c0b3a5f69e65435"
     end
   end
 
